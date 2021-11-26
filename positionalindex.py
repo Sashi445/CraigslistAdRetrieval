@@ -6,7 +6,7 @@ os.chdir("dataset")
 
 pattern = re.compile(r'''(?x)       # set flag to allow verbose regexps
 	        ([A-Z]\.)+              # abbreviations
-        |   \$?\d+(\.\d+)?%?        # currency and percentages,
+        |   [\$|Rs]?\d+(\.\d+)?%?   # currency and percentages,
         |   \w+                     # words 
  ''',re.VERBOSE | re.I)
 
