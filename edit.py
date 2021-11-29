@@ -17,8 +17,13 @@ def LevenshteinDistance(s1,s2):
 
     return m[len(s1)][len(s2)]       
 
+def jaccard_similarity(s1,s2):
+    intersection = len(list(set(list(s1.lower())).intersection(list(s2.lower()))))
+    union = len(set(list(s1.lower()))) + len(set(list(s2.lower()))) - intersection
+    return round(intersection/union,2)    
 
 s1 = input('string-1 :')
 s2 = input('string-2 :')
 
-print(LevenshteinDistance(s1, s2))
+print(LevenshteinDistance(s1,s2))
+print(jaccard_similarity(s1,s2))
