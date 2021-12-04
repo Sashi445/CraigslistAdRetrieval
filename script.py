@@ -16,15 +16,7 @@ def page_info(page_url, category, index):
     with open(f"./dataset/{category}{index}.txt", 'w', encoding='utf-8') as f:
         print(title.text.strip(), file=f)
         print(posting_body.text.strip(), file=f)
-
         f.close()
-
-
-    # file_item.write(title.text.strip())
-    # file_item.write(posting_body.text.strip())
-
-    # file_item.close()
-
 
 
 
@@ -46,7 +38,7 @@ def field_search(page_url, category):
 FIELDS_DICT = {
     "communities" : "ccc",
     "events" : "eee",
-    # "sale" : "sss",
+    "sale" : "sss",
     "gigs" : "ggg",
     "housing" : "hhh",
     "jobs" : "jjj",
