@@ -37,15 +37,10 @@ for j in range(0,len(files)):
 
     f.close()   
 
-for k,v in index.items():
-    v = list(v.items())
-    print(v)
-    index[k] = v
-
 os.chdir("..")
 
 with open('inverted_index.json','w',encoding='utf-8') as f:
-    json.dump(index,f,indent=4)
+    json.dump(index,f,indent=2)
     f.close()    
 
-# print('No of words in the inverted index {}'.format(len(index)))
+print('No of words in the inverted index {}'.format(len(index)))
