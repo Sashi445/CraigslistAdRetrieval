@@ -5,16 +5,9 @@ def logtf(posting):
     res = 1 + math.log(posting['word_count'])
     return round(res,3)
 
-f = open('positional_index.json')
-index = json.load(f)
-f.close()
-
-query = input('Enter the query:').split(' ')
-
-postings = []
-for word in query:
-    if word in index.keys():
-        postings.append(index[word]) 
+f = open('query.json','r')
+postings = json.load(f)
+f.close() 
 
 documents = dict()
 
