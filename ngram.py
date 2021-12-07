@@ -29,7 +29,7 @@ for file in os.listdir():
                         if word not in index[word]:
                             index[word].append(word[1:-1])
                 else:
-                    for i in range(len(word)-n):
+                    for i in range(len(word)-n+1):
                         if word[i:i+n] not in index.keys():
                             index[word[i:i+n]] = [word[1:-1]]
                         else:
