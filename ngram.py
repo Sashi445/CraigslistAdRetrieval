@@ -21,19 +21,20 @@ for file in os.listdir():
 
         for word in sentence.split(' '):
             if word!=' ' and word!='':
+                word = '$'+word+'$'
                 if n >= len(word):
                     if word not in index.keys():
-                        index[word] = [word]
+                        index[word] = [word[1:-1]]
                     else:
                         if word not in index[word]:
-                            index[word].append(word)
+                            index[word].append(word[1:-1])
                 else:
                     for i in range(len(word)-n):
                         if word[i:i+n] not in index.keys():
-                            index[word[i:i+n]] = [word]
+                            index[word[i:i+n]] = [word[1:-1]]
                         else:
                             if word not in index[word[i:i+n]]:
-                                index[word[i:i+n]].append(word)           
+                                index[word[i:i+n]].append(word[1:-1])           
     
 os.chdir('..')
 
