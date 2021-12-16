@@ -1,0 +1,3734 @@
+[
+  [
+    {
+      "document_count": 1,
+      "documents": {
+        "331": {
+          "word_count": 1,
+          "positions": [
+            26
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "295": {
+          "word_count": 1,
+          "positions": [
+            30
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "196": {
+          "word_count": 1,
+          "positions": [
+            99
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "194": {
+          "word_count": 1,
+          "positions": [
+            232
+          ]
+        },
+        "205": {
+          "word_count": 1,
+          "positions": [
+            261
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 49,
+      "documents": {
+        "53": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "58": {
+          "word_count": 1,
+          "positions": [
+            31
+          ]
+        },
+        "69": {
+          "word_count": 1,
+          "positions": [
+            31
+          ]
+        },
+        "71": {
+          "word_count": 1,
+          "positions": [
+            35
+          ]
+        },
+        "72": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "73": {
+          "word_count": 2,
+          "positions": [
+            42,
+            56
+          ]
+        },
+        "77": {
+          "word_count": 1,
+          "positions": [
+            32
+          ]
+        },
+        "81": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "85": {
+          "word_count": 1,
+          "positions": [
+            42
+          ]
+        },
+        "87": {
+          "word_count": 1,
+          "positions": [
+            49
+          ]
+        },
+        "93": {
+          "word_count": 1,
+          "positions": [
+            43
+          ]
+        },
+        "98": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "100": {
+          "word_count": 1,
+          "positions": [
+            43
+          ]
+        },
+        "108": {
+          "word_count": 1,
+          "positions": [
+            38
+          ]
+        },
+        "110": {
+          "word_count": 1,
+          "positions": [
+            42
+          ]
+        },
+        "113": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "116": {
+          "word_count": 1,
+          "positions": [
+            42
+          ]
+        },
+        "119": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "128": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "129": {
+          "word_count": 1,
+          "positions": [
+            44
+          ]
+        },
+        "130": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "132": {
+          "word_count": 1,
+          "positions": [
+            35
+          ]
+        },
+        "135": {
+          "word_count": 1,
+          "positions": [
+            43
+          ]
+        },
+        "143": {
+          "word_count": 1,
+          "positions": [
+            43
+          ]
+        },
+        "144": {
+          "word_count": 1,
+          "positions": [
+            42
+          ]
+        },
+        "145": {
+          "word_count": 1,
+          "positions": [
+            42
+          ]
+        },
+        "146": {
+          "word_count": 1,
+          "positions": [
+            33
+          ]
+        },
+        "147": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "150": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "151": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "152": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "153": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "154": {
+          "word_count": 1,
+          "positions": [
+            32
+          ]
+        },
+        "155": {
+          "word_count": 1,
+          "positions": [
+            35
+          ]
+        },
+        "160": {
+          "word_count": 1,
+          "positions": [
+            43
+          ]
+        },
+        "163": {
+          "word_count": 1,
+          "positions": [
+            38
+          ]
+        },
+        "164": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "165": {
+          "word_count": 1,
+          "positions": [
+            42
+          ]
+        },
+        "166": {
+          "word_count": 1,
+          "positions": [
+            43
+          ]
+        },
+        "167": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "168": {
+          "word_count": 1,
+          "positions": [
+            42
+          ]
+        },
+        "169": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "170": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "200": {
+          "word_count": 1,
+          "positions": [
+            61
+          ]
+        },
+        "220": {
+          "word_count": 1,
+          "positions": [
+            178
+          ]
+        },
+        "221": {
+          "word_count": 1,
+          "positions": [
+            67
+          ]
+        },
+        "274": {
+          "word_count": 1,
+          "positions": [
+            63
+          ]
+        },
+        "294": {
+          "word_count": 1,
+          "positions": [
+            73
+          ]
+        },
+        "299": {
+          "word_count": 1,
+          "positions": [
+            62
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "249": {
+          "word_count": 1,
+          "positions": [
+            237
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "290": {
+          "word_count": 1,
+          "positions": [
+            114
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "4": {
+          "word_count": 1,
+          "positions": [
+            203
+          ]
+        },
+        "5": {
+          "word_count": 1,
+          "positions": [
+            203
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 63,
+      "documents": {
+        "54": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "55": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "57": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "59": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "60": {
+          "word_count": 1,
+          "positions": [
+            50
+          ]
+        },
+        "61": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "63": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "64": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "66": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "67": {
+          "word_count": 1,
+          "positions": [
+            50
+          ]
+        },
+        "70": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "74": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "75": {
+          "word_count": 1,
+          "positions": [
+            30
+          ]
+        },
+        "76": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "78": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "79": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "80": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "82": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "83": {
+          "word_count": 1,
+          "positions": [
+            30
+          ]
+        },
+        "86": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "88": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "89": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "91": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "92": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "94": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "95": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "96": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "97": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "99": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "101": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "102": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "103": {
+          "word_count": 1,
+          "positions": [
+            44
+          ]
+        },
+        "104": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "105": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "107": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "111": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "112": {
+          "word_count": 1,
+          "positions": [
+            48
+          ]
+        },
+        "115": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "117": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "118": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "120": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "121": {
+          "word_count": 1,
+          "positions": [
+            51
+          ]
+        },
+        "122": {
+          "word_count": 1,
+          "positions": [
+            30
+          ]
+        },
+        "123": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "124": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "126": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "127": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "131": {
+          "word_count": 1,
+          "positions": [
+            32
+          ]
+        },
+        "133": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "134": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "136": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "137": {
+          "word_count": 1,
+          "positions": [
+            33
+          ]
+        },
+        "138": {
+          "word_count": 1,
+          "positions": [
+            43
+          ]
+        },
+        "139": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        },
+        "149": {
+          "word_count": 1,
+          "positions": [
+            44
+          ]
+        },
+        "157": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "159": {
+          "word_count": 1,
+          "positions": [
+            30
+          ]
+        },
+        "161": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "162": {
+          "word_count": 1,
+          "positions": [
+            40
+          ]
+        },
+        "171": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "305": {
+          "word_count": 1,
+          "positions": [
+            83
+          ]
+        },
+        "342": {
+          "word_count": 1,
+          "positions": [
+            66
+          ]
+        },
+        "347": {
+          "word_count": 1,
+          "positions": [
+            150
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "246": {
+          "word_count": 1,
+          "positions": [
+            115
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 10,
+      "documents": {
+        "7": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "9": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "10": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "11": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "12": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "13": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "14": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "17": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "45": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        },
+        "48": {
+          "word_count": 1,
+          "positions": [
+            46
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "272": {
+          "word_count": 1,
+          "positions": [
+            126
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "177": {
+          "word_count": 1,
+          "positions": [
+            94
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "220": {
+          "word_count": 1,
+          "positions": [
+            345
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "312": {
+          "word_count": 2,
+          "positions": [
+            69,
+            103
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "84": {
+          "word_count": 1,
+          "positions": [
+            41
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "236": {
+          "word_count": 1,
+          "positions": [
+            106
+          ]
+        },
+        "312": {
+          "word_count": 2,
+          "positions": [
+            5,
+            160
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 251,
+      "documents": {
+        "1": {
+          "word_count": 2,
+          "positions": [
+            5,
+            60
+          ]
+        },
+        "3": {
+          "word_count": 1,
+          "positions": [
+            5
+          ]
+        },
+        "6": {
+          "word_count": 3,
+          "positions": [
+            8,
+            9,
+            70
+          ]
+        },
+        "7": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "8": {
+          "word_count": 3,
+          "positions": [
+            8,
+            9,
+            70
+          ]
+        },
+        "9": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "10": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "11": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "12": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "13": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "14": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "15": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "17": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "18": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "19": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "20": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "21": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "22": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "23": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "24": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "25": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "26": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "27": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "28": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "29": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "30": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "31": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "39": {
+          "word_count": 3,
+          "positions": [
+            8,
+            9,
+            70
+          ]
+        },
+        "45": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "46": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "47": {
+          "word_count": 3,
+          "positions": [
+            8,
+            9,
+            70
+          ]
+        },
+        "48": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "49": {
+          "word_count": 3,
+          "positions": [
+            8,
+            9,
+            70
+          ]
+        },
+        "52": {
+          "word_count": 1,
+          "positions": [
+            17
+          ]
+        },
+        "53": {
+          "word_count": 2,
+          "positions": [
+            77,
+            87
+          ]
+        },
+        "54": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "55": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "56": {
+          "word_count": 2,
+          "positions": [
+            73,
+            104
+          ]
+        },
+        "57": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "58": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "59": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "60": {
+          "word_count": 2,
+          "positions": [
+            79,
+            110
+          ]
+        },
+        "61": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "62": {
+          "word_count": 2,
+          "positions": [
+            70,
+            101
+          ]
+        },
+        "63": {
+          "word_count": 2,
+          "positions": [
+            73,
+            104
+          ]
+        },
+        "64": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "65": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "66": {
+          "word_count": 2,
+          "positions": [
+            73,
+            104
+          ]
+        },
+        "67": {
+          "word_count": 2,
+          "positions": [
+            79,
+            110
+          ]
+        },
+        "68": {
+          "word_count": 2,
+          "positions": [
+            70,
+            101
+          ]
+        },
+        "69": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "70": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "71": {
+          "word_count": 2,
+          "positions": [
+            66,
+            76
+          ]
+        },
+        "72": {
+          "word_count": 2,
+          "positions": [
+            83,
+            93
+          ]
+        },
+        "73": {
+          "word_count": 2,
+          "positions": [
+            84,
+            94
+          ]
+        },
+        "74": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "75": {
+          "word_count": 2,
+          "positions": [
+            60,
+            70
+          ]
+        },
+        "76": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "77": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "78": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "79": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "80": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "81": {
+          "word_count": 2,
+          "positions": [
+            77,
+            87
+          ]
+        },
+        "82": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "83": {
+          "word_count": 2,
+          "positions": [
+            60,
+            70
+          ]
+        },
+        "85": {
+          "word_count": 2,
+          "positions": [
+            79,
+            89
+          ]
+        },
+        "86": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "87": {
+          "word_count": 2,
+          "positions": [
+            79,
+            110
+          ]
+        },
+        "88": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "89": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "90": {
+          "word_count": 2,
+          "positions": [
+            75,
+            106
+          ]
+        },
+        "91": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "92": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "93": {
+          "word_count": 2,
+          "positions": [
+            84,
+            115
+          ]
+        },
+        "94": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "95": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "96": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "97": {
+          "word_count": 2,
+          "positions": [
+            73,
+            104
+          ]
+        },
+        "98": {
+          "word_count": 2,
+          "positions": [
+            80,
+            111
+          ]
+        },
+        "99": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "100": {
+          "word_count": 2,
+          "positions": [
+            84,
+            115
+          ]
+        },
+        "101": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "102": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "103": {
+          "word_count": 2,
+          "positions": [
+            77,
+            108
+          ]
+        },
+        "104": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "105": {
+          "word_count": 2,
+          "positions": [
+            72,
+            103
+          ]
+        },
+        "106": {
+          "word_count": 4,
+          "positions": [
+            6,
+            7,
+            194,
+            232
+          ]
+        },
+        "107": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "108": {
+          "word_count": 2,
+          "positions": [
+            79,
+            110
+          ]
+        },
+        "109": {
+          "word_count": 2,
+          "positions": [
+            75,
+            106
+          ]
+        },
+        "110": {
+          "word_count": 2,
+          "positions": [
+            75,
+            106
+          ]
+        },
+        "111": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "112": {
+          "word_count": 2,
+          "positions": [
+            80,
+            111
+          ]
+        },
+        "113": {
+          "word_count": 2,
+          "positions": [
+            78,
+            88
+          ]
+        },
+        "114": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "115": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "116": {
+          "word_count": 2,
+          "positions": [
+            80,
+            90
+          ]
+        },
+        "117": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "118": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "119": {
+          "word_count": 2,
+          "positions": [
+            75,
+            85
+          ]
+        },
+        "120": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "121": {
+          "word_count": 2,
+          "positions": [
+            78,
+            88
+          ]
+        },
+        "122": {
+          "word_count": 2,
+          "positions": [
+            60,
+            70
+          ]
+        },
+        "123": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "124": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "125": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "126": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "127": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "128": {
+          "word_count": 2,
+          "positions": [
+            77,
+            87
+          ]
+        },
+        "129": {
+          "word_count": 2,
+          "positions": [
+            81,
+            91
+          ]
+        },
+        "130": {
+          "word_count": 2,
+          "positions": [
+            73,
+            83
+          ]
+        },
+        "131": {
+          "word_count": 2,
+          "positions": [
+            62,
+            72
+          ]
+        },
+        "132": {
+          "word_count": 3,
+          "positions": [
+            55,
+            83,
+            93
+          ]
+        },
+        "133": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "134": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "135": {
+          "word_count": 2,
+          "positions": [
+            75,
+            85
+          ]
+        },
+        "136": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "137": {
+          "word_count": 2,
+          "positions": [
+            77,
+            87
+          ]
+        },
+        "138": {
+          "word_count": 2,
+          "positions": [
+            74,
+            84
+          ]
+        },
+        "139": {
+          "word_count": 2,
+          "positions": [
+            71,
+            81
+          ]
+        },
+        "140": {
+          "word_count": 2,
+          "positions": [
+            72,
+            82
+          ]
+        },
+        "141": {
+          "word_count": 2,
+          "positions": [
+            64,
+            74
+          ]
+        },
+        "142": {
+          "word_count": 2,
+          "positions": [
+            62,
+            72
+          ]
+        },
+        "143": {
+          "word_count": 2,
+          "positions": [
+            75,
+            85
+          ]
+        },
+        "144": {
+          "word_count": 2,
+          "positions": [
+            78,
+            88
+          ]
+        },
+        "145": {
+          "word_count": 2,
+          "positions": [
+            75,
+            85
+          ]
+        },
+        "146": {
+          "word_count": 2,
+          "positions": [
+            68,
+            78
+          ]
+        },
+        "147": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "148": {
+          "word_count": 2,
+          "positions": [
+            63,
+            73
+          ]
+        },
+        "149": {
+          "word_count": 2,
+          "positions": [
+            72,
+            82
+          ]
+        },
+        "150": {
+          "word_count": 2,
+          "positions": [
+            78,
+            88
+          ]
+        },
+        "151": {
+          "word_count": 2,
+          "positions": [
+            77,
+            87
+          ]
+        },
+        "152": {
+          "word_count": 2,
+          "positions": [
+            79,
+            89
+          ]
+        },
+        "153": {
+          "word_count": 2,
+          "positions": [
+            77,
+            87
+          ]
+        },
+        "154": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "155": {
+          "word_count": 2,
+          "positions": [
+            68,
+            78
+          ]
+        },
+        "156": {
+          "word_count": 2,
+          "positions": [
+            67,
+            77
+          ]
+        },
+        "157": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "158": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "159": {
+          "word_count": 2,
+          "positions": [
+            60,
+            70
+          ]
+        },
+        "160": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "161": {
+          "word_count": 2,
+          "positions": [
+            69,
+            79
+          ]
+        },
+        "162": {
+          "word_count": 2,
+          "positions": [
+            70,
+            80
+          ]
+        },
+        "163": {
+          "word_count": 2,
+          "positions": [
+            72,
+            82
+          ]
+        },
+        "164": {
+          "word_count": 2,
+          "positions": [
+            80,
+            111
+          ]
+        },
+        "165": {
+          "word_count": 2,
+          "positions": [
+            75,
+            106
+          ]
+        },
+        "166": {
+          "word_count": 2,
+          "positions": [
+            76,
+            107
+          ]
+        },
+        "167": {
+          "word_count": 2,
+          "positions": [
+            75,
+            106
+          ]
+        },
+        "168": {
+          "word_count": 2,
+          "positions": [
+            76,
+            107
+          ]
+        },
+        "169": {
+          "word_count": 2,
+          "positions": [
+            75,
+            106
+          ]
+        },
+        "170": {
+          "word_count": 2,
+          "positions": [
+            74,
+            105
+          ]
+        },
+        "171": {
+          "word_count": 2,
+          "positions": [
+            71,
+            102
+          ]
+        },
+        "172": {
+          "word_count": 2,
+          "positions": [
+            3,
+            209
+          ]
+        },
+        "173": {
+          "word_count": 1,
+          "positions": [
+            7
+          ]
+        },
+        "174": {
+          "word_count": 1,
+          "positions": [
+            3
+          ]
+        },
+        "175": {
+          "word_count": 1,
+          "positions": [
+            10
+          ]
+        },
+        "178": {
+          "word_count": 2,
+          "positions": [
+            182,
+            263
+          ]
+        },
+        "180": {
+          "word_count": 2,
+          "positions": [
+            184,
+            265
+          ]
+        },
+        "181": {
+          "word_count": 2,
+          "positions": [
+            4,
+            146
+          ]
+        },
+        "183": {
+          "word_count": 1,
+          "positions": [
+            7
+          ]
+        },
+        "184": {
+          "word_count": 2,
+          "positions": [
+            6,
+            191
+          ]
+        },
+        "185": {
+          "word_count": 2,
+          "positions": [
+            335,
+            416
+          ]
+        },
+        "188": {
+          "word_count": 1,
+          "positions": [
+            3
+          ]
+        },
+        "189": {
+          "word_count": 1,
+          "positions": [
+            5
+          ]
+        },
+        "190": {
+          "word_count": 2,
+          "positions": [
+            4,
+            179
+          ]
+        },
+        "191": {
+          "word_count": 3,
+          "positions": [
+            6,
+            21,
+            52
+          ]
+        },
+        "192": {
+          "word_count": 1,
+          "positions": [
+            3
+          ]
+        },
+        "193": {
+          "word_count": 1,
+          "positions": [
+            4
+          ]
+        },
+        "194": {
+          "word_count": 3,
+          "positions": [
+            3,
+            34,
+            38
+          ]
+        },
+        "205": {
+          "word_count": 2,
+          "positions": [
+            3,
+            22
+          ]
+        },
+        "216": {
+          "word_count": 1,
+          "positions": [
+            6
+          ]
+        },
+        "229": {
+          "word_count": 1,
+          "positions": [
+            14
+          ]
+        },
+        "231": {
+          "word_count": 2,
+          "positions": [
+            7,
+            58
+          ]
+        },
+        "232": {
+          "word_count": 8,
+          "positions": [
+            5,
+            21,
+            184,
+            208,
+            270,
+            284,
+            296,
+            316
+          ]
+        },
+        "233": {
+          "word_count": 1,
+          "positions": [
+            7
+          ]
+        },
+        "234": {
+          "word_count": 5,
+          "positions": [
+            5,
+            151,
+            167,
+            179,
+            199
+          ]
+        },
+        "236": {
+          "word_count": 4,
+          "positions": [
+            10,
+            11,
+            34,
+            104
+          ]
+        },
+        "237": {
+          "word_count": 1,
+          "positions": [
+            4
+          ]
+        },
+        "238": {
+          "word_count": 6,
+          "positions": [
+            4,
+            5,
+            16,
+            63,
+            101,
+            108
+          ]
+        },
+        "240": {
+          "word_count": 1,
+          "positions": [
+            6
+          ]
+        },
+        "241": {
+          "word_count": 1,
+          "positions": [
+            5
+          ]
+        },
+        "243": {
+          "word_count": 5,
+          "positions": [
+            6,
+            7,
+            95,
+            108,
+            285
+          ]
+        },
+        "244": {
+          "word_count": 6,
+          "positions": [
+            6,
+            64,
+            115,
+            128,
+            140,
+            159
+          ]
+        },
+        "245": {
+          "word_count": 5,
+          "positions": [
+            5,
+            119,
+            133,
+            145,
+            165
+          ]
+        },
+        "246": {
+          "word_count": 5,
+          "positions": [
+            5,
+            188,
+            204,
+            216,
+            238
+          ]
+        },
+        "247": {
+          "word_count": 2,
+          "positions": [
+            9,
+            26
+          ]
+        },
+        "248": {
+          "word_count": 1,
+          "positions": [
+            13
+          ]
+        },
+        "249": {
+          "word_count": 1,
+          "positions": [
+            4
+          ]
+        },
+        "250": {
+          "word_count": 2,
+          "positions": [
+            8,
+            22
+          ]
+        },
+        "254": {
+          "word_count": 4,
+          "positions": [
+            4,
+            5,
+            96,
+            103
+          ]
+        },
+        "263": {
+          "word_count": 4,
+          "positions": [
+            7,
+            8,
+            58,
+            174
+          ]
+        },
+        "265": {
+          "word_count": 2,
+          "positions": [
+            5,
+            6
+          ]
+        },
+        "266": {
+          "word_count": 6,
+          "positions": [
+            5,
+            6,
+            44,
+            49,
+            56,
+            73
+          ]
+        },
+        "267": {
+          "word_count": 5,
+          "positions": [
+            6,
+            111,
+            125,
+            137,
+            157
+          ]
+        },
+        "270": {
+          "word_count": 5,
+          "positions": [
+            5,
+            137,
+            153,
+            165,
+            185
+          ]
+        },
+        "273": {
+          "word_count": 3,
+          "positions": [
+            7,
+            34,
+            77
+          ]
+        },
+        "274": {
+          "word_count": 2,
+          "positions": [
+            7,
+            39
+          ]
+        },
+        "276": {
+          "word_count": 3,
+          "positions": [
+            5,
+            6,
+            43
+          ]
+        },
+        "277": {
+          "word_count": 1,
+          "positions": [
+            6
+          ]
+        },
+        "278": {
+          "word_count": 1,
+          "positions": [
+            6
+          ]
+        },
+        "280": {
+          "word_count": 2,
+          "positions": [
+            8,
+            10
+          ]
+        },
+        "281": {
+          "word_count": 1,
+          "positions": [
+            8
+          ]
+        },
+        "282": {
+          "word_count": 2,
+          "positions": [
+            6,
+            7
+          ]
+        },
+        "283": {
+          "word_count": 2,
+          "positions": [
+            7,
+            8
+          ]
+        },
+        "284": {
+          "word_count": 5,
+          "positions": [
+            4,
+            5,
+            26,
+            80,
+            87
+          ]
+        },
+        "285": {
+          "word_count": 5,
+          "positions": [
+            16,
+            120,
+            276,
+            282,
+            304
+          ]
+        },
+        "286": {
+          "word_count": 5,
+          "positions": [
+            17,
+            126,
+            147,
+            181,
+            274
+          ]
+        },
+        "287": {
+          "word_count": 7,
+          "positions": [
+            17,
+            28,
+            73,
+            80,
+            152,
+            158,
+            328
+          ]
+        },
+        "288": {
+          "word_count": 3,
+          "positions": [
+            85,
+            138,
+            151
+          ]
+        },
+        "289": {
+          "word_count": 2,
+          "positions": [
+            123,
+            217
+          ]
+        },
+        "290": {
+          "word_count": 11,
+          "positions": [
+            147,
+            153,
+            180,
+            293,
+            299,
+            348,
+            437,
+            512,
+            574,
+            606,
+            626
+          ]
+        },
+        "291": {
+          "word_count": 5,
+          "positions": [
+            6,
+            164,
+            179,
+            191,
+            211
+          ]
+        },
+        "292": {
+          "word_count": 4,
+          "positions": [
+            6,
+            10,
+            22,
+            34
+          ]
+        },
+        "294": {
+          "word_count": 2,
+          "positions": [
+            13,
+            53
+          ]
+        },
+        "295": {
+          "word_count": 3,
+          "positions": [
+            5,
+            10,
+            50
+          ]
+        },
+        "296": {
+          "word_count": 1,
+          "positions": [
+            8
+          ]
+        },
+        "297": {
+          "word_count": 1,
+          "positions": [
+            8
+          ]
+        },
+        "298": {
+          "word_count": 1,
+          "positions": [
+            8
+          ]
+        },
+        "299": {
+          "word_count": 5,
+          "positions": [
+            5,
+            6,
+            17,
+            28,
+            37
+          ]
+        },
+        "300": {
+          "word_count": 1,
+          "positions": [
+            6
+          ]
+        },
+        "301": {
+          "word_count": 2,
+          "positions": [
+            4,
+            46
+          ]
+        },
+        "302": {
+          "word_count": 1,
+          "positions": [
+            6
+          ]
+        },
+        "307": {
+          "word_count": 1,
+          "positions": [
+            3
+          ]
+        },
+        "310": {
+          "word_count": 5,
+          "positions": [
+            3,
+            25,
+            30,
+            79,
+            86
+          ]
+        },
+        "311": {
+          "word_count": 5,
+          "positions": [
+            7,
+            114,
+            131,
+            143,
+            163
+          ]
+        },
+        "312": {
+          "word_count": 6,
+          "positions": [
+            6,
+            133,
+            151,
+            168,
+            180,
+            200
+          ]
+        },
+        "313": {
+          "word_count": 6,
+          "positions": [
+            5,
+            6,
+            20,
+            62,
+            74,
+            129
+          ]
+        },
+        "314": {
+          "word_count": 1,
+          "positions": [
+            3
+          ]
+        },
+        "315": {
+          "word_count": 6,
+          "positions": [
+            7,
+            60,
+            142,
+            157,
+            169,
+            189
+          ]
+        },
+        "316": {
+          "word_count": 2,
+          "positions": [
+            6,
+            31
+          ]
+        },
+        "317": {
+          "word_count": 1,
+          "positions": [
+            9
+          ]
+        },
+        "319": {
+          "word_count": 1,
+          "positions": [
+            5
+          ]
+        },
+        "320": {
+          "word_count": 1,
+          "positions": [
+            7
+          ]
+        },
+        "321": {
+          "word_count": 1,
+          "positions": [
+            6
+          ]
+        },
+        "322": {
+          "word_count": 1,
+          "positions": [
+            7
+          ]
+        },
+        "323": {
+          "word_count": 2,
+          "positions": [
+            8,
+            25
+          ]
+        },
+        "324": {
+          "word_count": 1,
+          "positions": [
+            8
+          ]
+        },
+        "326": {
+          "word_count": 5,
+          "positions": [
+            7,
+            170,
+            186,
+            198,
+            217
+          ]
+        },
+        "329": {
+          "word_count": 5,
+          "positions": [
+            6,
+            116,
+            129,
+            149,
+            163
+          ]
+        },
+        "332": {
+          "word_count": 1,
+          "positions": [
+            8
+          ]
+        },
+        "333": {
+          "word_count": 2,
+          "positions": [
+            10,
+            31
+          ]
+        },
+        "334": {
+          "word_count": 6,
+          "positions": [
+            5,
+            67,
+            179,
+            195,
+            207,
+            227
+          ]
+        },
+        "337": {
+          "word_count": 6,
+          "positions": [
+            6,
+            19,
+            194,
+            209,
+            221,
+            241
+          ]
+        },
+        "338": {
+          "word_count": 4,
+          "positions": [
+            4,
+            5,
+            111,
+            118
+          ]
+        },
+        "339": {
+          "word_count": 1,
+          "positions": [
+            12
+          ]
+        },
+        "341": {
+          "word_count": 2,
+          "positions": [
+            6,
+            7
+          ]
+        },
+        "342": {
+          "word_count": 2,
+          "positions": [
+            6,
+            21
+          ]
+        },
+        "343": {
+          "word_count": 1,
+          "positions": [
+            8
+          ]
+        },
+        "345": {
+          "word_count": 1,
+          "positions": [
+            6
+          ]
+        },
+        "346": {
+          "word_count": 3,
+          "positions": [
+            3,
+            92,
+            99
+          ]
+        },
+        "347": {
+          "word_count": 3,
+          "positions": [
+            7,
+            32,
+            53
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "280": {
+          "word_count": 1,
+          "positions": [
+            24
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "340": {
+          "word_count": 1,
+          "positions": [
+            7
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "173": {
+          "word_count": 1,
+          "positions": [
+            73
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 7,
+      "documents": {
+        "3": {
+          "word_count": 1,
+          "positions": [
+            308
+          ]
+        },
+        "36": {
+          "word_count": 1,
+          "positions": [
+            28
+          ]
+        },
+        "178": {
+          "word_count": 1,
+          "positions": [
+            273
+          ]
+        },
+        "180": {
+          "word_count": 1,
+          "positions": [
+            275
+          ]
+        },
+        "181": {
+          "word_count": 1,
+          "positions": [
+            157
+          ]
+        },
+        "184": {
+          "word_count": 1,
+          "positions": [
+            202
+          ]
+        },
+        "185": {
+          "word_count": 1,
+          "positions": [
+            426
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "3": {
+          "word_count": 2,
+          "positions": [
+            193,
+            279
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "1": {
+          "word_count": 2,
+          "positions": [
+            96,
+            127
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "3": {
+          "word_count": 2,
+          "positions": [
+            44,
+            256
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "191": {
+          "word_count": 1,
+          "positions": [
+            114
+          ]
+        },
+        "217": {
+          "word_count": 1,
+          "positions": [
+            30
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "191": {
+          "word_count": 1,
+          "positions": [
+            19
+          ]
+        },
+        "311": {
+          "word_count": 1,
+          "positions": [
+            126
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "4": {
+          "word_count": 2,
+          "positions": [
+            63,
+            236
+          ]
+        },
+        "5": {
+          "word_count": 2,
+          "positions": [
+            63,
+            236
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "75": {
+          "word_count": 2,
+          "positions": [
+            4,
+            23
+          ]
+        },
+        "131": {
+          "word_count": 2,
+          "positions": [
+            4,
+            25
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "270": {
+          "word_count": 1,
+          "positions": [
+            91
+          ]
+        },
+        "287": {
+          "word_count": 1,
+          "positions": [
+            256
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 11,
+      "documents": {
+        "236": {
+          "word_count": 1,
+          "positions": [
+            107
+          ]
+        },
+        "250": {
+          "word_count": 4,
+          "positions": [
+            7,
+            50,
+            86,
+            99
+          ]
+        },
+        "285": {
+          "word_count": 3,
+          "positions": [
+            345,
+            356,
+            357
+          ]
+        },
+        "286": {
+          "word_count": 3,
+          "positions": [
+            460,
+            471,
+            472
+          ]
+        },
+        "287": {
+          "word_count": 3,
+          "positions": [
+            388,
+            399,
+            400
+          ]
+        },
+        "288": {
+          "word_count": 3,
+          "positions": [
+            388,
+            399,
+            400
+          ]
+        },
+        "289": {
+          "word_count": 3,
+          "positions": [
+            416,
+            427,
+            428
+          ]
+        },
+        "290": {
+          "word_count": 3,
+          "positions": [
+            665,
+            676,
+            677
+          ]
+        },
+        "333": {
+          "word_count": 1,
+          "positions": [
+            167
+          ]
+        },
+        "342": {
+          "word_count": 1,
+          "positions": [
+            151
+          ]
+        },
+        "347": {
+          "word_count": 1,
+          "positions": [
+            193
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 6,
+      "documents": {
+        "28": {
+          "word_count": 1,
+          "positions": [
+            206
+          ]
+        },
+        "46": {
+          "word_count": 1,
+          "positions": [
+            206
+          ]
+        },
+        "215": {
+          "word_count": 1,
+          "positions": [
+            53
+          ]
+        },
+        "281": {
+          "word_count": 1,
+          "positions": [
+            129
+          ]
+        },
+        "287": {
+          "word_count": 1,
+          "positions": [
+            278
+          ]
+        },
+        "289": {
+          "word_count": 1,
+          "positions": [
+            96
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 42,
+      "documents": {
+        "2": {
+          "word_count": 1,
+          "positions": [
+            65
+          ]
+        },
+        "3": {
+          "word_count": 1,
+          "positions": [
+            382
+          ]
+        },
+        "15": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "16": {
+          "word_count": 2,
+          "positions": [
+            120,
+            132
+          ]
+        },
+        "18": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "19": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "20": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "21": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "22": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "23": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "24": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "25": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "26": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "27": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "29": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "30": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "31": {
+          "word_count": 2,
+          "positions": [
+            122,
+            134
+          ]
+        },
+        "37": {
+          "word_count": 1,
+          "positions": [
+            65
+          ]
+        },
+        "44": {
+          "word_count": 1,
+          "positions": [
+            39
+          ]
+        },
+        "178": {
+          "word_count": 1,
+          "positions": [
+            232
+          ]
+        },
+        "180": {
+          "word_count": 1,
+          "positions": [
+            234
+          ]
+        },
+        "185": {
+          "word_count": 1,
+          "positions": [
+            385
+          ]
+        },
+        "196": {
+          "word_count": 1,
+          "positions": [
+            19
+          ]
+        },
+        "197": {
+          "word_count": 1,
+          "positions": [
+            53
+          ]
+        },
+        "201": {
+          "word_count": 1,
+          "positions": [
+            116
+          ]
+        },
+        "203": {
+          "word_count": 1,
+          "positions": [
+            192
+          ]
+        },
+        "217": {
+          "word_count": 1,
+          "positions": [
+            60
+          ]
+        },
+        "228": {
+          "word_count": 1,
+          "positions": [
+            21
+          ]
+        },
+        "247": {
+          "word_count": 1,
+          "positions": [
+            119
+          ]
+        },
+        "249": {
+          "word_count": 1,
+          "positions": [
+            15
+          ]
+        },
+        "257": {
+          "word_count": 3,
+          "positions": [
+            24,
+            42,
+            133
+          ]
+        },
+        "271": {
+          "word_count": 1,
+          "positions": [
+            81
+          ]
+        },
+        "279": {
+          "word_count": 2,
+          "positions": [
+            58,
+            100
+          ]
+        },
+        "287": {
+          "word_count": 1,
+          "positions": [
+            180
+          ]
+        },
+        "307": {
+          "word_count": 1,
+          "positions": [
+            180
+          ]
+        },
+        "310": {
+          "word_count": 1,
+          "positions": [
+            44
+          ]
+        },
+        "318": {
+          "word_count": 1,
+          "positions": [
+            48
+          ]
+        },
+        "325": {
+          "word_count": 1,
+          "positions": [
+            27
+          ]
+        },
+        "329": {
+          "word_count": 1,
+          "positions": [
+            78
+          ]
+        },
+        "331": {
+          "word_count": 1,
+          "positions": [
+            127
+          ]
+        },
+        "332": {
+          "word_count": 1,
+          "positions": [
+            38
+          ]
+        },
+        "343": {
+          "word_count": 1,
+          "positions": [
+            183
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 4,
+      "documents": {
+        "114": {
+          "word_count": 1,
+          "positions": [
+            35
+          ]
+        },
+        "267": {
+          "word_count": 4,
+          "positions": [
+            1,
+            23,
+            83,
+            116
+          ]
+        },
+        "326": {
+          "word_count": 5,
+          "positions": [
+            1,
+            14,
+            17,
+            101,
+            175
+          ]
+        },
+        "329": {
+          "word_count": 7,
+          "positions": [
+            1,
+            13,
+            19,
+            38,
+            46,
+            56,
+            121
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 17,
+      "documents": {
+        "6": {
+          "word_count": 1,
+          "positions": [
+            22
+          ]
+        },
+        "8": {
+          "word_count": 1,
+          "positions": [
+            22
+          ]
+        },
+        "39": {
+          "word_count": 1,
+          "positions": [
+            22
+          ]
+        },
+        "47": {
+          "word_count": 1,
+          "positions": [
+            22
+          ]
+        },
+        "49": {
+          "word_count": 1,
+          "positions": [
+            22
+          ]
+        },
+        "93": {
+          "word_count": 1,
+          "positions": [
+            54
+          ]
+        },
+        "100": {
+          "word_count": 1,
+          "positions": [
+            54
+          ]
+        },
+        "106": {
+          "word_count": 3,
+          "positions": [
+            40,
+            72,
+            227
+          ]
+        },
+        "182": {
+          "word_count": 1,
+          "positions": [
+            134
+          ]
+        },
+        "201": {
+          "word_count": 1,
+          "positions": [
+            106
+          ]
+        },
+        "249": {
+          "word_count": 1,
+          "positions": [
+            575
+          ]
+        },
+        "270": {
+          "word_count": 1,
+          "positions": [
+            110
+          ]
+        },
+        "285": {
+          "word_count": 1,
+          "positions": [
+            156
+          ]
+        },
+        "288": {
+          "word_count": 3,
+          "positions": [
+            31,
+            100,
+            109
+          ]
+        },
+        "289": {
+          "word_count": 1,
+          "positions": [
+            294
+          ]
+        },
+        "305": {
+          "word_count": 1,
+          "positions": [
+            102
+          ]
+        },
+        "312": {
+          "word_count": 2,
+          "positions": [
+            78,
+            83
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "285": {
+          "word_count": 1,
+          "positions": [
+            64
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 8,
+      "documents": {
+        "37": {
+          "word_count": 1,
+          "positions": [
+            120
+          ]
+        },
+        "52": {
+          "word_count": 2,
+          "positions": [
+            137,
+            148
+          ]
+        },
+        "175": {
+          "word_count": 1,
+          "positions": [
+            50
+          ]
+        },
+        "176": {
+          "word_count": 1,
+          "positions": [
+            65
+          ]
+        },
+        "209": {
+          "word_count": 1,
+          "positions": [
+            72
+          ]
+        },
+        "210": {
+          "word_count": 1,
+          "positions": [
+            35
+          ]
+        },
+        "279": {
+          "word_count": 1,
+          "positions": [
+            155
+          ]
+        },
+        "290": {
+          "word_count": 1,
+          "positions": [
+            327
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 15,
+      "documents": {
+        "15": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "16": {
+          "word_count": 1,
+          "positions": [
+            53
+          ]
+        },
+        "18": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "19": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "20": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "21": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "22": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "23": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "24": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "25": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "26": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "27": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "29": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "30": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        },
+        "31": {
+          "word_count": 1,
+          "positions": [
+            55
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "52": {
+          "word_count": 1,
+          "positions": [
+            138
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 1,
+      "documents": {
+        "291": {
+          "word_count": 5,
+          "positions": [
+            1,
+            14,
+            35,
+            62,
+            169
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 2,
+      "documents": {
+        "250": {
+          "word_count": 1,
+          "positions": [
+            180
+          ]
+        },
+        "347": {
+          "word_count": 1,
+          "positions": [
+            134
+          ]
+        }
+      }
+    },
+    {
+      "document_count": 3,
+      "documents": {
+        "195": {
+          "word_count": 1,
+          "positions": [
+            76
+          ]
+        },
+        "218": {
+          "word_count": 1,
+          "positions": [
+            76
+          ]
+        },
+        "219": {
+          "word_count": 1,
+          "positions": [
+            76
+          ]
+        }
+      }
+    }
+  ]
+]
