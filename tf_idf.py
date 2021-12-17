@@ -124,9 +124,9 @@ class DocumentRanker:
                 else:
                     # add zero to doc_vector
                     document_vector.append(0)
-            with open(f"document_vectors.txt", "a", encoding="utf-8") as f:
-                f.write(f"{tuple(document_vector)}\n")
-                f.close()
+            # with open(f"document_vectors.txt", "a", encoding="utf-8") as f:
+            #     f.write(f"{tuple(document_vector)}\n")
+            #     f.close()
             self.document_vectors[str(doc_id)] = tuple(document_vector)
 
     def get_word_count(self, doc_id):

@@ -22,10 +22,11 @@ max_tfs = dict()
 
 files = os.listdir()
 
-for j in range(0,len(files)):
+for j in range(0,3):
     doc_id = j+1
     f = open(files[j],'r',encoding='utf8')
-    words = pattern.finditer(f.read())
+    file_string = f.read()
+    words = pattern.finditer(file_string)
     pos=1
     for word in words:
         # word = ps.stem(word.group().lower())
@@ -39,15 +40,19 @@ for j in range(0,len(files)):
                 index[word]['document_count']+=1
                 index[word]['documents'][str(doc_id)] = {'word_count':1 , 'positions':[pos]}
             else:
-                index[word]['documents'][str(doc_id)]['word_count']+=1
+                index[word]['documents'][str(doc_id)]['word_count'] += 1
                 index[word]['documents'][str(doc_id)]['positions'].append(pos) 
         pos+=1
 
     max_tf = 0
 
-    for word in words:
+    for word in pattern.finditer(file_string):
         word =  word.group().lower()
-        term_freq = index[word]["documents"][doc_id]['word_count']
+        if word in stop_words:
+            continue
+        print(index[word]['documents'][str(doc_id)]['positions'])
+        term_freq = len(index[word]['documents'][str(doc_id)]['positions'])
+        print(term_freq)
         if max_tf < term_freq:
             max_tf = term_freq
 
