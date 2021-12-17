@@ -1,10 +1,16 @@
 import json
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+
+ps = PorterStemmer()
+stop_words = set(stopwords.words('english'))
 
 f = open('positional_index.json','r')
 index = json.load(f)
 f.close()
 
-n = int(input('Enter the value of n :'))
+n = int(input('Enter the value of n : '))
 
 f = open(str(n)+'-gram.json','r')
 ngram = json.load(f)
@@ -46,7 +52,11 @@ def wildcard(word):
 
 postings = []
 queryvector = []
+
 for word in query:
+    if word in stop_words:
+        continue
+
     if '*' in word:
         words = wildcard(word)
         words.sort()
@@ -56,6 +66,7 @@ for word in query:
             sub_postings.append(index[w])
         postings.append(sub_postings)    
     else:
+        word = ps.stem(word)
         if word in index.keys():
             queryvector.append(word)
             postings.append(index[word])     
