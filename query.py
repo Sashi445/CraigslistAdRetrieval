@@ -16,7 +16,6 @@ ngram = json.load(f)
 f.close()
 
 print('Use can use * as wildcard query')
-print('Caution use only one * per word 2 or more are not allowed')
 query = input('Enter the query:').split(' ')           
 
 def merge(n1,n2):
@@ -49,6 +48,7 @@ def wildcard(word):
         w2 = word[i+1:]+'$'
         return merge(processing(w),processing(w2))       
 
+
 def get_query_info(posting_keys, query):
 
     query_info = list()
@@ -63,8 +63,6 @@ def get_query_info(posting_keys, query):
 
     return query_info
 
-
-
 queryvector = []
 
 for word in query:
@@ -74,7 +72,8 @@ for word in query:
     if '*' in word:
         words = wildcard(word)
         words.sort()
-        queryvector.append(words)
+        for word in words:
+            queryvector.append(word)
        
     else:
         word = ps.stem(word)
