@@ -18,6 +18,7 @@ pattern = re.compile(r'''(?x)       # set flag to allow verbose regexps
 
 index = dict()
 word_count = dict()
+max_tfs = dict()
 
 files = os.listdir()
 
@@ -26,34 +27,41 @@ for j in range(0,len(files)):
     f = open(files[j],'r',encoding='utf8')
     words = pattern.finditer(f.read())
     pos=1
-    i = 0
     for word in words:
-        i+=1
         # word = ps.stem(word.group().lower())
         word = word.group().lower()
         if word in stop_words:
             continue
         if word not in index.keys():
-            index[word] = { 'document_count' : 1 , 'documents' : { doc_id:{ 'word_count':1 , 'positions':[pos] } } }
+            index[word] = { 'document_count' : 1 , 'documents' : { str(doc_id):{ 'word_count':1 , 'positions':[pos] } } }
         else:
             if doc_id not in index[word]['documents'].keys():
                 index[word]['document_count']+=1
-                index[word]['documents'][doc_id] = {'word_count':1 , 'positions':[pos]}
+                index[word]['documents'][str(doc_id)] = {'word_count':1 , 'positions':[pos]}
             else:
-                index[word]['documents'][doc_id]['word_count']+=1
-                index[word]['documents'][doc_id]['positions'].append(pos)    
+                index[word]['documents'][str(doc_id)]['word_count']+=1
+                index[word]['documents'][str(doc_id)]['positions'].append(pos) 
         pos+=1
-    word_count[j+1] = i       
+
+    max_tf = 0
+
+    for word in words:
+        word =  word.group().lower()
+        term_freq = index[word]["documents"][doc_id]['word_count']
+        if max_tf < term_freq:
+            max_tf = term_freq
+
+    word_count[j+1] = max_tf       
     f.close()            
 
 os.chdir("..")
 
-with open('positional_index.json','w',encoding='utf-8') as file:
-    json.dump(index,file,indent=4)
-    file.close() 
+with open('positional_index.json','w',encoding='utf-8') as f:
+    json.dump(index,f,indent=4)
+    f.close() 
 
-with open('word-count.json','w',encoding='utf-8') as file:
-    json.dump(word_count,file,indent=4)
-    file.close()        
+with open('word-count.json','w',encoding='utf-8') as f:
+    json.dump(word_count,f,indent=4)
+    f.close()        
 
 print('No of words in the positional index {}'.format(len(index)))

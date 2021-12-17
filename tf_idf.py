@@ -42,6 +42,8 @@ class DocumentRanker:
             idf = math.log10(self.total_documents_len / occurences)
             temp_idf_vals[key] = idf
         
+        # print(json.dumps(temp_idf_vals,sort_keys=True, indent=4))
+
         self.idf_values = temp_idf_vals
         # return idf_values
 
@@ -61,19 +63,51 @@ class DocumentRanker:
         
         word_ref = self.positional_index[word]
         
-        documents = word_ref["documents"]
+        docs = word_ref['documents']
+
+        if doc_id in docs.keys():
+             
+             doc_ref = docs[doc_id]
+
+             freq = doc_ref["word_count"]
+
+             total_words = self.get_word_count(doc_id=doc_id)
+
+             tf_value = freq / total_words
+
+             idf_value = math.log10( self.total_documents_len /  word_ref["document_count"] )    
+
+             return tf_value * idf_value
+
+        else:
+
+            return 0
+
+        # documents = word_ref["documents"]
+        # print(documents)
+        # doc_ref = documents[doc_id]
+        # total_words_doc = self.get_word_count(doc_id)
+        # freq = doc_ref["word_count"]
+        # tf_value = freq / total_words_doc
+        # idf_value = math.log10( self.total_documents_len / int(word_ref["document_count"]) )
+        # return tf_value * idf_value
+
+    def get_doc_vectors(self):
         
-        doc_ref = documents[str(doc_id)]
+        doc_vectors = dict()
+
+        for doc_id in range(1, 330):
+            doc_vector = list()
+            for word in sorted(self.positional_index.keys()):
+                tf_idf = self.get_tf_idf_from_doc_word(word, str(doc_id))
+                doc_vector.append(tf_idf)
+            doc_vectors[str(doc_id)] = doc_vector        
         
-        total_words_doc = self.get_word_count(str(doc_id))
+        self.document_vectors = doc_vectors
 
-        freq = doc_ref["word_count"]
+        # print(self.document_vectors)
 
-        tf_value = freq / total_words_doc
-
-        idf_value = math.log10( self.total_documents_len / int(word_ref["documents_count"]) )
-
-        return tf_value * idf_value
+            
 
 
     def create_document_vector_matrix(self):
@@ -117,13 +151,9 @@ class DocumentRanker:
         return query_info
 
     def get_query_vector(self, query):
-
         query_info = self.get_query_info(query)
-
-        total_length = sum(query_info.values())
-
+        total_length = max(query_info.values())
         query_vector = list()
-
         for word in sorted(self.positional_index.keys()):
             if word in query_info.keys():
                 tf_value = query_info[word] / total_length
@@ -131,7 +161,6 @@ class DocumentRanker:
                 query_vector.append(tf_value*idf_value)
             else:
                 query_vector.append(0)
-        
         return query_vector
 
     def cosine_similarity(self, query_vector, document_vector):
@@ -150,10 +179,11 @@ class DocumentRanker:
         coefficients = dict()
         # documents = set()
         for doc_id in range(1, self.total_documents_len + 1):
-            document_vector = self.document_vectors[str(doc_id)]
-            query_vector = self.get_query_vector(query)
-            cosine_similarity = self.cosine_similarity(document_vector=document_vector, query_vector=query_vector)
-            coefficients[str(doc_id)] = cosine_similarity
+            if str(doc_id) in self.document_vectors.keys():
+                document_vector = self.document_vectors[str(doc_id)]
+                query_vector = self.get_query_vector(query)
+                cosine_similarity = self.cosine_similarity(document_vector=document_vector, query_vector=query_vector)
+                coefficients[str(doc_id)] = cosine_similarity
         return coefficients
 
 
