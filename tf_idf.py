@@ -9,8 +9,6 @@ from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 stop_words = set(stopwords.words('english'))
 
-
-
 class DocumentRanker:
 
     
