@@ -33,9 +33,13 @@ values = zip(coefficients.keys(), coefficients.values())
 
 results = sorted(values,  key=lambda x : x[1], reverse=True)
 
+<<<<<<< HEAD
 print(results)
 
 retrieval = [results[i][0] for i in range(10)]
 with open('retrieval.json','w',encoding='utf-8') as f:
     json.dump(retrieval,f,indent=4)
     f.close()
+=======
+print(results[:10])
+>>>>>>> 9dbe787e6362b041720f4fe8f5da319b9c5a2889

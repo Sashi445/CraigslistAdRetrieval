@@ -21,7 +21,7 @@ word_count = dict()
 files = os.listdir()
 
 for j in range(0,len(files)):
-    doc_id = j+1
+    doc_id = files[j].split(".")[0]
     f = open(files[j],'r',encoding='utf8')
     words = pattern.finditer(f.read())
     pos=1
