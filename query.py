@@ -1,5 +1,4 @@
 import json
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
@@ -50,7 +49,24 @@ def wildcard(word):
         w2 = word[i+1:]+'$'
         return merge(processing(w),processing(w2))       
 
-postings = []
+# postings = []
+
+def get_query_info(posting_keys, query):
+
+    query_info = list()
+
+    for word in query:
+        if word in stop_words:
+            continue
+        else:
+            word = ps.stem(word)
+            if word in posting_keys:
+                query_info.append(word)
+
+    return query_info
+
+
+
 queryvector = []
 
 for word in query:
@@ -61,18 +77,18 @@ for word in query:
         words = wildcard(word)
         words.sort()
         queryvector.append(words)
-        sub_postings=[]
-        for w in words:
-            sub_postings.append(index[w])
-        postings.append(sub_postings)    
+        # sub_postings=[]
+        # for w in words:
+        #     sub_postings.append(index[w])
+        # postings.append(sub_postings)    
     else:
         word = ps.stem(word)
         if word in index.keys():
             queryvector.append(word)
-            postings.append(index[word])     
+            # postings.append(index[word])     
 
 with open('query.json','w',encoding='utf-8') as file:
-    json.dump(postings,file,indent=2)
+    json.dump(queryvector,file,indent=2)
     file.close()      
 
 print("Query Vector :",queryvector) 

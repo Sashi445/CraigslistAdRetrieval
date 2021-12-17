@@ -3,14 +3,21 @@ import math
 import os
 import os.path
 
-DIR = '.\dataset'
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+
+ps = PorterStemmer()
+stop_words = set(stopwords.words('english'))
 
 
-class DocumentVector:
 
+class DocumentRanker:
+
+    
     def __init__(self):
+        self.DIR = '.\dataset'
         self.total_documents_len = (len([name for name in os.listdir(
-            DIR) if os.path.isfile(os.path.join(DIR, name))]))
+            self.DIR) if os.path.isfile(os.path.join(self.DIR, name))]))
         self.positional_index = dict()
         self.idf_values = list()
         self.document_vectors = list()
@@ -68,9 +75,9 @@ class DocumentVector:
         idf_value = math.log10( self.total_documents_len / int(word_ref["documents_count"]) )
 
         return tf_value * idf_value
-        
 
-    def create_document_matrix(self):
+
+    def create_document_vector_matrix(self):
         words = sorted(self.positional_index.keys())
         for doc_id in range(1, self.total_documents_len + 1):
             document_vector = list()
@@ -93,13 +100,57 @@ class DocumentVector:
     def get_word_count(self, doc_id):
         return self.word_count[doc_id]
 
+    def get_query_info(self, query):
 
-d = DocumentVector()
+        query_info = dict()
 
-d.set_positional_index()
+        for word in query:
+            if word in stop_words:
+                continue
+            else:
+                word = ps.stem(word)
+                if word in self.positional_index.keys():
+                    if word in query_info.keys():
+                        query_info[word] += 1
+                    else:
+                        query_info[word] = 0
+        # {
+        #     begin : 2,
+        #     reach : 1
+        # }
 
-d.set_word_count()
+        return query_info
 
-d.get_idf_values()
+    def get_query_vector(self, query):
 
-d.create_document_matrix()
+        query_info = self.get_query_info(query)
+
+        total_length = sum(query_info.values())
+
+        query_vector = list()
+
+        for word in sorted(self.positional_index.keys()):
+            if word in query_info.keys():
+                tf_value = query_info[word] / total_length
+                idf_value = self.idf_values[word]
+                query_vector.append(tf_value*idf_value)
+            else:
+                query_vector.append(0)
+        
+        return query_vector
+
+    def calculate_cosine_similarity(self, query_vector, document_vector):
+        value_doc = math.sqrt(sum([ value * value for value in document_vector ]))
+        value_vector = math.sqrt(sum([ value * value for value in query_vector ]))
+
+        prod_val = 0
+
+        for value in zip(document_vector, query_vector):
+            a , b = value
+            prod_val += a * b
+        
+        return prod_val / ( value_doc + value_vector )
+
+
+
+
