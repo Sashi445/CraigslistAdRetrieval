@@ -19,9 +19,10 @@ class DocumentRanker:
         self.total_documents_len = (len([name for name in os.listdir(
             self.DIR) if os.path.isfile(os.path.join(self.DIR, name))]))
         self.positional_index = dict()
-        self.idf_values = list()
+        self.idf_values = dict()
         self.document_vectors = list()
         self.word_count = dict()
+        self.document_vectors = dict()
 
     def set_word_count(self):
         with open("./word-count.json", "r", encoding="utf-8") as f:
@@ -35,13 +36,13 @@ class DocumentRanker:
 
     def get_idf_values(self):
 
-        temp_idf_vals = list()
+        temp_idf_vals = dict()
 
         for key in sorted(self.positional_index.keys()):
             reference = self.positional_index[key]
             occurences = reference['document_count']
             idf = math.log10(self.total_documents_len / occurences)
-            temp_idf_vals.append(idf)
+            temp_idf_vals[key] = idf
         
         self.idf_values = temp_idf_vals
         # return idf_values
@@ -85,7 +86,7 @@ class DocumentRanker:
                 tf_values = self.get_tf_values(word)
                 if str(doc_id) in tf_values.keys():
                     # multiply by tf-val and idf-value and add value to vector
-                    idf_value = self.idf_values[int(doc_id) - 1]
+                    idf_value = self.idf_values[word]
                     tf_value = tf_values[str(doc_id)]
                     document_vector.append(tf_value * idf_value)
                 else:
@@ -94,8 +95,7 @@ class DocumentRanker:
             with open(f"document_vectors.txt", "a", encoding="utf-8") as f:
                 f.write(f"{tuple(document_vector)}\n")
                 f.close()
-
-            # self.document_vectors.append(tuple(document_vector))
+            self.document_vectors[str(doc_id)] = tuple(document_vector)
 
     def get_word_count(self, doc_id):
         return self.word_count[doc_id]
@@ -105,20 +105,17 @@ class DocumentRanker:
         query_info = dict()
 
         for word in query:
+            word = word.lower()
             if word in stop_words:
                 continue
             else:
-                word = ps.stem(word)
+                # word = ps.stem(word)
                 if word in self.positional_index.keys():
                     if word in query_info.keys():
                         query_info[word] += 1
                     else:
-                        query_info[word] = 0
-        # {
-        #     begin : 2,
-        #     reach : 1
-        # }
-
+                        query_info[word] = 1
+        
         return query_info
 
     def get_query_vector(self, query):
@@ -139,7 +136,7 @@ class DocumentRanker:
         
         return query_vector
 
-    def calculate_cosine_similarity(self, query_vector, document_vector):
+    def cosine_similarity(self, query_vector, document_vector):
         value_doc = math.sqrt(sum([ value * value for value in document_vector ]))
         value_vector = math.sqrt(sum([ value * value for value in query_vector ]))
 
@@ -150,6 +147,16 @@ class DocumentRanker:
             prod_val += a * b
         
         return prod_val / ( value_doc + value_vector )
+    
+    def find_similarity_coefficients(self, query):
+        coefficients = dict()
+        # documents = set()
+        for doc_id in range(1, self.total_documents_len + 1):
+            document_vector = self.document_vectors[str(doc_id)]
+            query_vector = self.get_query_vector(query)
+            cosine_similarity = self.cosine_similarity(document_vector=document_vector, query_vector=query_vector)
+            coefficients[str(doc_id)] = cosine_similarity
+        return coefficients
 
 
 

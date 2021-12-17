@@ -29,7 +29,8 @@ for j in range(0,len(files)):
     i = 0
     for word in words:
         i+=1
-        word = ps.stem(word.group().lower())
+        # word = ps.stem(word.group().lower())
+        word = word.group().lower()
         if word in stop_words:
             continue
         if word not in index.keys():

@@ -21,3 +21,12 @@ d.set_word_count()
 
 d.get_idf_values()
 
+d.create_document_vector_matrix()
+
+coefficients = d.find_similarity_coefficients(query=query)
+
+values = zip(coefficients.keys(), coefficients.values())
+
+results = sorted(values,  key=lambda x : x[1], reverse=True)
+
+print(results)
