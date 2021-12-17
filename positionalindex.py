@@ -44,7 +44,9 @@ for j in range(0,len(files)):
             index[word] = { 'document_count' : 1 , 'documents' : { str(doc_id): document[word] } }
         else:
             index[word]['document_count']+=1
-            index[word]['documents'][str(doc_id)] = document[word]        
+            index[word]['documents'][str(doc_id)] = document[word]   
+
+    word_count[str(doc_id)] = max([document[word]['word_count'] for word in document.keys()])             
 
     f.close()            
 
