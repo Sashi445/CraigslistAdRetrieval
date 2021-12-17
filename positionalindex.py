@@ -1,7 +1,6 @@
 import os
 import re   
 import json 
-# import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
@@ -18,7 +17,6 @@ pattern = re.compile(r'''(?x)       # set flag to allow verbose regexps
 
 index = dict()
 word_count = dict()
-max_tfs = dict()
 
 files = os.listdir()
 
@@ -27,31 +25,27 @@ for j in range(0,len(files)):
     f = open(files[j],'r',encoding='utf8')
     words = pattern.finditer(f.read())
     pos=1
+    document = {}
+
     for word in words:
         # word = ps.stem(word.group().lower())
         word = word.group().lower()
         if word in stop_words:
             continue
-        if word not in index.keys():
-            index[word] = { 'document_count' : 1 , 'documents' : { str(doc_id):{ 'word_count':1 , 'positions':[pos] } } }
+        if word not in document.keys():
+            document[word] = {'word_count':1 , 'positions':[pos]}
         else:
-            if doc_id not in index[word]['documents'].keys():
-                index[word]['document_count']+=1
-                index[word]['documents'][str(doc_id)] = {'word_count':1 , 'positions':[pos]}
-            else:
-                index[word]['documents'][str(doc_id)]['word_count']+=1
-                index[word]['documents'][str(doc_id)]['positions'].append(pos) 
+            document[word]['word_count'] +=1
+            document[word]['positions'].append(pos)
         pos+=1
 
-    max_tf = 0
+    for word in document.keys():
+        if word not in index.keys():
+            index[word] = { 'document_count' : 1 , 'documents' : { str(doc_id): document[word] } }
+        else:
+            index[word]['document_count']+=1
+            index[word]['documents'][str(doc_id)] = document[word]        
 
-    for word in words:
-        word =  word.group().lower()
-        term_freq = index[word]["documents"][doc_id]['word_count']
-        if max_tf < term_freq:
-            max_tf = term_freq
-
-    word_count[j+1] = max_tf       
     f.close()            
 
 os.chdir("..")
