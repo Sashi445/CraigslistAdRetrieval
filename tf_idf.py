@@ -177,7 +177,6 @@ class DocumentRanker:
     
     def find_similarity_coefficients(self, query):
         coefficients = dict()
-        # documents = set()
         for doc_id in range(1, self.total_documents_len + 1):
             if str(doc_id) in self.document_vectors.keys():
                 document_vector = self.document_vectors[str(doc_id)]

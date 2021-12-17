@@ -20,11 +20,10 @@ word_count = dict()
 
 files = os.listdir()
 
-for j in range(0,3):
-    doc_id = j+1
+for j in range(0,len(files)):
+    doc_id = files[j].split(".")[0]
     f = open(files[j],'r',encoding='utf8')
-    file_string = f.read()
-    words = pattern.finditer(file_string)
+    words = pattern.finditer(f.read())
     pos=1
     document = {}
 
@@ -45,7 +44,9 @@ for j in range(0,3):
             index[word] = { 'document_count' : 1 , 'documents' : { str(doc_id): document[word] } }
         else:
             index[word]['document_count']+=1
-            index[word]['documents'][str(doc_id)] = document[word]        
+            index[word]['documents'][str(doc_id)] = document[word]   
+
+    word_count[str(doc_id)] = max([document[word]['word_count'] for word in document.keys()])             
 
     f.close()            
 

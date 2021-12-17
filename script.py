@@ -49,16 +49,19 @@ FIELDS_DICT = {
     "services" : "bbb"
 }
 
+locations = [ 'bangalore', 'ahmedabad', 'chennai', 'delhi', 'goa', 'lucknow', 'mumbai' ]
 
 count  = 0
 
-for field in FIELDS_DICT.items() :
-    
-    _ , val = field
+for location in locations:
 
-    page_url = f"https://bangalore.craigslist.org/search/{val}?"
-    
-    count = field_search(page_url, count=count)
+    for field in FIELDS_DICT.items() :
+        
+        _ , val = field
+
+        page_url = f"https://bangalore.craigslist.org/search/{val}?"
+        
+        count = field_search(page_url, count=count)
     
 
 

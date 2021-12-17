@@ -33,4 +33,4 @@ values = zip(coefficients.keys(), coefficients.values())
 
 results = sorted(values,  key=lambda x : x[1], reverse=True)
 
-print(results)
+print(results[:10])
